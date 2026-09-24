@@ -7,7 +7,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   /* ---------- 1. Config ---------- */
-  const API_URL = 'https://mindcare-ai-rs2g.onrender.com/predict';
+  const API_URL = 'http://127.0.0.1:8000';
   const SCORE_RING_CIRCUMFERENCE = 439.8; // 2 * PI * r(70), matches style.css
 
   /* ---------- 2. Mobile nav toggle ---------- */
